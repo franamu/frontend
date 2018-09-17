@@ -1,0 +1,15 @@
+# Impedir que se pueda ver el listado de contenidos de un directorio
+
+Options All -Indexes
+
+# Url Amigables
+
+RewriteEngine On
+
+RewriteRule ^([-a-zA-Z0-9/]+)$ index.php?ruta=$1
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^miecommerce\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\miecommerce\.com$
+RewriteCond %{HTTPS} !on
+RewriteRule ^(.*)$ http://miecommerce.com/$1 [R=301,L,NE]

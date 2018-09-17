@@ -1,0 +1,894 @@
+[18-May-2018 12:49:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[18-May-2018 12:49:19 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'id_usuario' cannot be null in /home2/ammucom/public_html/frontend/modelos/usuarios.modelo.php:22
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/usuarios.modelo.php(22): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/usuarios.controlador.php(836): ModeloUsuarios::mdlInsertarComentarioNuevaCompra('comentarios', Array)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php(53): ControladorUsuarios::ctrInsertarComentarioNuevaCompra(Array)
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(256): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/usuarios.modelo.php on line 22
+[18-May-2018 12:58:17 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[18-May-2018 12:58:17 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 22
+[18-May-2018 14:53:17 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[18-May-2018 14:57:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 297
+[18-May-2018 14:57:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 14:57:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 476
+[18-May-2018 15:01:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 297
+[18-May-2018 15:01:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:01:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 476
+[18-May-2018 15:03:51 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:03:51 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 476
+[18-May-2018 15:05:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:05:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 476
+[18-May-2018 15:06:18 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:06:18 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 476
+[18-May-2018 15:07:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:08:05 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:08:17 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:08:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:13:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:13:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:13:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:14:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:14:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[18-May-2018 15:44:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[18-May-2018 15:56:18 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[21-May-2018 08:09:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[21-May-2018 12:14:32 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 12:14:32 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('173.252.92.24', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 12:21:11 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 12:21:11 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('66.220.146.215', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 12:51:46 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 12:51:46 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('66.220.148.128', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 13:16:24 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 13:16:24 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('173.252.84.198', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 13:21:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 23
+[21-May-2018 13:21:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 24
+[21-May-2018 14:48:41 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 14:48:41 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('173.252.85.204', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 15:13:03 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 15:13:03 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('69.171.240.19', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 15:13:03 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 15:13:03 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('173.252.99.253', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 15:20:04 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 15:20:04 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('173.252.89.28', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 15:41:22 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 15:41:22 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('66.220.146.181', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 16:08:30 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 16:08:30 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('173.252.86.70', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 16:08:30 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 16:08:30 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('173.252.86.91', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 16:21:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[21-May-2018 16:21:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[21-May-2018 16:21:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[21-May-2018 16:22:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[21-May-2018 16:22:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[21-May-2018 14:22:43 America/Bogota] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[21-May-2018 16:22:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[21-May-2018 17:15:00 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 17:15:00 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('66.220.148.26', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 17:15:00 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 17:15:00 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('173.252.93.17', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 17:56:51 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 17:56:51 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('69.171.225.55', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 18:42:32 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 18:42:32 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('66.220.146.151', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 19:09:10 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 19:09:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('69.171.240.215', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 19:09:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 23
+[21-May-2018 19:09:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 24
+[21-May-2018 19:54:14 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 19:54:14 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('173.252.90.239', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 19:54:14 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 19:54:14 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('69.171.240.176', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 23:07:28 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[21-May-2018 23:07:28 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('69.171.225.39', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[21-May-2018 23:07:39 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[22-May-2018 01:52:04 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[22-May-2018 01:52:04 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('69.171.240.17', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[22-May-2018 10:15:23 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[22-May-2018 10:15:23 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('69.171.240.120', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[22-May-2018 16:12:38 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[22-May-2018 16:12:38 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('173.252.88.121', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[23-May-2018 00:38:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[23-May-2018 00:51:25 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[23-May-2018 00:51:25 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('66.249.64.134', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[23-May-2018 05:08:26 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[23-May-2018 05:08:26 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'France', 'FR', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('178.255.215.64', 'France', 'FR')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[23-May-2018 05:09:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 23
+[23-May-2018 05:09:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 24
+[23-May-2018 05:09:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[23-May-2018 12:06:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[23-May-2018 21:15:22 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[23-May-2018 21:15:22 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('69.58.178.59', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[23-May-2018 21:17:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 23
+[23-May-2018 21:17:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 24
+[23-May-2018 21:18:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[25-May-2018 09:13:44 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[25-May-2018 09:13:44 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'Finland', 'FI', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('95.216.20.52', 'Finland', 'FI')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[25-May-2018 14:03:36 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 23
+[25-May-2018 14:03:36 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 24
+[25-May-2018 14:03:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[25-May-2018 18:42:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 04:58:00 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 04:58:05 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 04:58:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 11:11:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 11:11:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 11:11:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 11:11:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 11:11:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 11:11:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 15:51:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 15:51:30 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 15:51:36 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[26-May-2018 20:30:49 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[26-May-2018 20:30:49 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('69.171.225.16', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[27-May-2018 00:42:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 00:42:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 00:42:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 05:55:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 05:55:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 05:55:22 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 05:55:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 10:22:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 10:22:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 10:22:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 10:22:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 15:08:00 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[27-May-2018 15:08:00 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'United States', 'US', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('66.249.66.66', 'United States', 'US')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[27-May-2018 15:09:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[27-May-2018 15:50:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 23
+[27-May-2018 15:50:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 24
+[27-May-2018 17:23:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 17:24:01 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 17:24:04 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 17:24:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[27-May-2018 17:57:41 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[27-May-2018 18:36:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[28-May-2018 03:54:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[28-May-2018 03:54:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[28-May-2018 03:54:25 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[28-May-2018 10:12:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[28-May-2018 10:12:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[28-May-2018 10:12:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[28-May-2018 10:12:37 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[28-May-2018 16:37:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[28-May-2018 16:37:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[28-May-2018 16:37:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[28-May-2018 16:37:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[30-May-2018 01:13:18 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 23
+[30-May-2018 01:13:18 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 24
+[30-May-2018 16:20:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[30-May-2018 17:43:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[30-May-2018 17:50:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[30-May-2018 18:43:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[30-May-2018 22:35:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[30-May-2018 22:36:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[30-May-2018 22:36:21 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[30-May-2018 22:36:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[30-May-2018 22:37:54 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'cantidad' cannot be null in /home2/ammucom/public_html/frontend/modelos/carrito.modelo.php:43
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/carrito.modelo.php(43): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/carrito.controlador.php(27): ModeloCarrito::mdlNuevasCompras('compras', Array)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra.php(148): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(256): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/carrito.modelo.php on line 43
+[01-Jun-2018 11:09:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[01-Jun-2018 15:11:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[01-Jun-2018 18:03:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[01-Jun-2018 21:07:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[02-Jun-2018 00:55:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[02-Jun-2018 02:05:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:05:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:05:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:05:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:06:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:06:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:06:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:06:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:06:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:06:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:06:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:06:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:06:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:06:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:06:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:06:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:09:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:09:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:09:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:09:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:10:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:10:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:10:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:10:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:10:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:10:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:10:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:10:47 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:14:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:14:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:14:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:14:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:14:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:14:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:14:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:14:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:17:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[02-Jun-2018 02:18:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:18:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:18:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:18:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:18:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:18:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:18:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:18:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:19:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:19:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:19:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:19:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:21:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:21:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:21:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:21:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:21:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:21:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:21:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:21:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:25:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:25:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:25:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:25:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:26:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[02-Jun-2018 02:29:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:29:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:29:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:29:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:29:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:29:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 02:29:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 02:29:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 03:00:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 03:00:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 03:00:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 03:00:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 04:56:18 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 04:56:18 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 04:56:18 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 04:56:18 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 12:10:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 12:10:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 12:10:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 12:10:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 17:25:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 17:25:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 17:25:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 17:25:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 19:17:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 19:17:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 19:17:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 19:17:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 21:29:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 21:29:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[02-Jun-2018 21:29:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[02-Jun-2018 21:29:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[03-Jun-2018 06:34:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[03-Jun-2018 06:34:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[03-Jun-2018 06:34:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[03-Jun-2018 06:34:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 00:12:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 00:12:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 00:12:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 00:12:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 08:52:59 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[04-Jun-2018 08:52:59 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'Brazil', 'BR', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('52.67.31.217', 'Brazil', 'BR')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[04-Jun-2018 13:33:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 13:33:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 13:33:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 13:33:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 14:26:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 14:26:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 14:26:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 14:26:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 15:31:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 15:31:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 15:31:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 15:31:35 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 15:34:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 15:34:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 15:34:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 15:34:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 17:14:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 17:14:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 17:14:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 17:14:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 17:15:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined variable: estado in /home2/ammucom/public_html/frontend/vistas/modulos/buscador.php on line 449
+[04-Jun-2018 17:56:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 17:56:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 17:56:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 17:56:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 17:57:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 17:57:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 17:57:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 17:57:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 18:56:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 18:56:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 18:56:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 18:56:49 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 19:05:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 19:05:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 19:05:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 19:05:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 19:10:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 7
+[04-Jun-2018 19:10:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: shipping_addres in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 20
+[04-Jun-2018 19:10:55 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'direccion' cannot be null in /home2/ammucom/public_html/frontend/modelos/carrito.modelo.php:43
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/carrito.modelo.php(43): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/carrito.controlador.php(27): ModeloCarrito::mdlNuevasCompras('compras', Array)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php(26): ControladorCarrito::ctrNuevasCompras(Array)
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(256): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/carrito.modelo.php on line 43
+[04-Jun-2018 19:11:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 19:11:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 19:16:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 19:16:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 19:35:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 19:35:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 19:35:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 19:35:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 19:52:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[04-Jun-2018 19:52:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 19:52:06 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 19:54:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 19:54:08 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 19:59:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 19:59:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 19:59:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 19:59:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:06:55 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[04-Jun-2018 20:06:55 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'producto' in 'field list' in /home2/ammucom/public_html/frontend/modelos/productos.modelo.php:275
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/productos.modelo.php(275): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/productos.controlador.php(161): ModeloProductos::mdlActualizarProducto('productos', 'producto', '1', 'id', '3')
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php(51): ControladorProductos::ctrActualizarProducto('producto', 1, 'id', '3')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(256): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/productos.modelo.php on line 275
+[04-Jun-2018 20:07:04 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:07:04 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:08:39 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:08:39 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:08:39 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:08:39 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:10:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:10:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:11:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:11:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:11:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:11:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:11:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:11:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:12:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:12:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:12:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:12:34 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:13:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[04-Jun-2018 20:13:43 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productos' in 'field list' in /home2/ammucom/public_html/frontend/modelos/productos.modelo.php:275
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/productos.modelo.php(275): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/productos.controlador.php(161): ModeloProductos::mdlActualizarProducto('productos', 'productos', '1', 'id', '3')
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php(51): ControladorProductos::ctrActualizarProducto('productos', 1, 'id', '3')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(256): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/productos.modelo.php on line 275
+[04-Jun-2018 20:13:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:13:50 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:16:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[04-Jun-2018 20:16:15 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productos' in 'field list' in /home2/ammucom/public_html/frontend/modelos/productos.modelo.php:275
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/productos.modelo.php(275): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/productos.controlador.php(161): ModeloProductos::mdlActualizarProducto('productos', 'productos', '1', 'id', '3')
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php(51): ControladorProductos::ctrActualizarProducto('productos', 1, 'id', '3')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(256): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/productos.modelo.php on line 275
+[04-Jun-2018 20:16:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:16:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:19:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:19:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:19:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:19:53 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:23:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:23:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:23:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:23:33 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:23:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:23:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:23:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:23:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:24:59 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[04-Jun-2018 20:24:59 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productos' in 'field list' in /home2/ammucom/public_html/frontend/modelos/productos.modelo.php:275
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/productos.modelo.php(275): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/productos.controlador.php(161): ModeloProductos::mdlActualizarProducto('productos', 'productos', '0', 'id', '3')
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php(51): ControladorProductos::ctrActualizarProducto('productos', 0, 'id', '3')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(256): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/productos.modelo.php on line 275
+[04-Jun-2018 20:25:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:25:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:31:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:31:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:31:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:31:48 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:33:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:33:03 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:33:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[04-Jun-2018 20:33:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productos' in 'field list' in /home2/ammucom/public_html/frontend/modelos/productos.modelo.php:275
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/productos.modelo.php(275): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/productos.controlador.php(161): ModeloProductos::mdlActualizarProducto('productos', 'productos', '0', 'id', '3')
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php(44): ControladorProductos::ctrActualizarProducto('productos', 0, 'id', '3')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(256): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/productos.modelo.php on line 275
+[04-Jun-2018 20:36:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[04-Jun-2018 20:36:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:36:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:36:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:36:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:36:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:36:38 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:37:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:37:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:37:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:37:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:37:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:37:28 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:40:36 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:40:36 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:41:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: merchantId in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 26
+[04-Jun-2018 20:41:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:41:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:42:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: merchantId in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 26
+[04-Jun-2018 20:42:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:42:12 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:44:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: merchantId in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 26
+[04-Jun-2018 20:44:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:44:43 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:51:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: merchantId in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 26
+[04-Jun-2018 20:51:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:51:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:52:57 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: message in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 26
+[04-Jun-2018 20:52:57 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:52:57 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 20:58:25 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:58:25 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 20:58:25 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 20:58:25 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 21:00:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:00:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:00:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: message in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 26
+[04-Jun-2018 21:00:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:00:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:02:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: message in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 26
+[04-Jun-2018 21:02:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:02:09 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:02:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: message in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 26
+[04-Jun-2018 21:02:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:02:20 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:02:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: message in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 26
+[04-Jun-2018 21:02:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:02:26 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:04:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:04:07 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:04:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 21:04:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 21:04:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 21:04:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 21:05:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: titulo in /home2/ammucom/public_html/frontend/vistas/modulos/finalizar-compra-payu.php on line 11
+[04-Jun-2018 21:05:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:05:13 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:05:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:05:14 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:06:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:06:11 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[04-Jun-2018 21:06:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 21:06:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 21:06:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 21:06:16 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 21:26:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 21:26:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[04-Jun-2018 21:26:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[04-Jun-2018 21:26:58 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 00:28:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[05-Jun-2018 00:28:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[05-Jun-2018 00:28:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 00:28:56 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 00:29:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[05-Jun-2018 00:30:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[05-Jun-2018 00:30:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[05-Jun-2018 00:30:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 00:30:10 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 00:31:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[05-Jun-2018 00:31:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[05-Jun-2018 00:31:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 00:31:15 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 00:32:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[05-Jun-2018 00:34:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[05-Jun-2018 00:34:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[05-Jun-2018 00:34:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 00:34:40 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 03:46:34 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[05-Jun-2018 03:46:34 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'Germany', 'DE', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('217.84.22.33', 'Germany', 'DE')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[05-Jun-2018 03:58:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[05-Jun-2018 03:58:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[05-Jun-2018 03:58:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 03:58:24 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[05-Jun-2018 04:35:57 America/Argentina/Buenos_Aires] PHP Deprecated:  Non-static method ModeloVisitas::mdlInsertarPais() should not be called statically in /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php on line 94
+[05-Jun-2018 04:35:57 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php:83
+Stack trace:
+#0 /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php(83): PDOStatement->execute()
+#1 /home2/ammucom/public_html/frontend/controladores/visitas.controlador.php(94): ModeloVisitas::mdlInsertarPais('visitaspaises', 'China', 'CN', 1)
+#2 /home2/ammucom/public_html/frontend/vistas/modulos/visitas.php(20): ControladorVisitas::ctrEnviarIp('220.181.132.193', 'China', 'CN')
+#3 /home2/ammucom/public_html/frontend/vistas/plantilla.php(276): include('/home2/ammucom/...')
+#4 /home2/ammucom/public_html/frontend/controladores/plantilla.controlador.php(11): include('/home2/ammucom/...')
+#5 /home2/ammucom/public_html/frontend/index.php(25): ControladorPlantilla::plantilla()
+#6 {main}
+  thrown in /home2/ammucom/public_html/frontend/modelos/visitas.modelo.php on line 83
+[06-Jun-2018 13:04:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:04:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:04:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:04:02 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:06:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 7 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:06:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 7 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:06:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:06:23 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:06:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 7 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:06:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 7 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:06:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:06:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:06:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 7 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:06:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 7 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:06:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:06:46 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:07:29 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[06-Jun-2018 13:07:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 7 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:07:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 7 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:07:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:07:32 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:07:44 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
+[06-Jun-2018 13:09:04 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[06-Jun-2018 13:09:04 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[06-Jun-2018 13:09:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:09:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:09:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:09:19 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:09:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 7 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:09:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 7 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:09:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:09:42 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:09:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:09:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 3 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 389
+[06-Jun-2018 13:09:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:09:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined offset: 1 in /home2/ammucom/public_html/frontend/vistas/modulos/infoproducto.php on line 409
+[06-Jun-2018 13:12:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[06-Jun-2018 13:12:54 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: nuevo in /home2/ammucom/public_html/frontend/vistas/modulos/perfil.php on line 415
+[06-Jun-2018 17:51:45 America/Argentina/Buenos_Aires] PHP Notice:  Undefined index: id in /home2/ammucom/public_html/frontend/vistas/modulos/carrito-de-compras.php on line 164
