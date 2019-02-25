@@ -38,8 +38,8 @@
             echo '<div class="textosSlide" style="top:'.$estiloTextoSlide["top"].'%; left:'.$estiloTextoSlide["left"].'%; width: '.$estiloTextoSlide["width"].'%; right: '.$estiloTextoSlide["right"].'%">
             	
             	<h1 style="color:'.$titulo1["color"].';">'.$titulo1["texto"].'</h1>
-            	<h2 style="color:'.$titulo2["color"].';">'.$titulo1["texto"].'	</h2>
-            	<h3 style="color:'.$titulo3["color"].';">'.$titulo1["texto"].'</h3>';
+            	<h2 style="color:'.$titulo2["color"].';">'.$titulo2["texto"].'	</h2>
+            	<h3 style="color:'.$titulo3["color"].';">'.$titulo3["texto"].'</h3>';
 
               
               if($value["boton"] != ""){
