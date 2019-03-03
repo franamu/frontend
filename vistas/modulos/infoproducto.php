@@ -376,7 +376,7 @@ INFOPRODUCTOS
 
 						if($infoproducto["tipo"] == "fisico"){
 
-							if($detalles["Talla"]!=null){
+							/*if($detalles["Talla"]!=null){
 
 								echo '<div class="col-md-3 col-xs-12">
 
@@ -394,9 +394,9 @@ INFOPRODUCTOS
 
 								</div>';
 
-							}
+							}*/
 
-							if($detalles["Color"]!=null){
+							/*if($detalles["Color"]!=null){
 
 								echo '<div class="col-md-3 col-xs-12">
 
@@ -414,25 +414,22 @@ INFOPRODUCTOS
 
 								</div>';
 
-							}
+							}*/
+
 
 							if($detalles["Marca"]!=null){
 
-								echo '<div class="col-md-3 col-xs-12">
+								echo '<div class="col-md-3 col-xs-12">';
 
-									<select class="form-control seleccionarDetalle" id="seleccionarMarca">
-										
-										<option value="">Marca</option>';
-
-										for($i = 0; $i <= count($detalles["Marca"]); $i++){
-
-											echo '<option value="'.$detalles["Marca"][$i].'">'.$detalles["Marca"][$i].'</option>';
+										for($i = 0; $i < count($detalles["Marca"]); $i++){
+											
+											echo '<li>
+													<i style="margin-right:10px" class="fa fa-check-circle"></i> '.$detalles["Marca"][$i].'
+												</li>';
 
 										}
 
-									echo '</select>
-
-								</div>';
+								echo '</div>';
 
 							}
 

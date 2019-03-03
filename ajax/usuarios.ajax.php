@@ -18,7 +18,7 @@ class AjaxUsuarios{
       echo json_encode($respuesta);
     }else{
     
-    echo json_encode($respuesta);
+      echo json_encode($respuesta);
 
     }
       
@@ -110,8 +110,8 @@ if(isset($_POST["validarEmail"])){
 if(isset($_POST["email"])){
   $regFacebook = new AjaxUsuarios();
   $regFacebook -> email = $_POST["email"];
-   $regFacebook -> nombre = $_POST["nombre"];
-    $regFacebook -> foto = $_POST["foto"];
+  $regFacebook -> nombre = $_POST["nombre"];
+  $regFacebook -> foto = $_POST["foto"];
   $regFacebook -> ajaxRegistroFacebook();
 }
 

@@ -82,63 +82,27 @@ $(".cabeceraCheckout").hide();
 
 }
 
+console.log('q onda');
+
 /*==========================================
 =            AGREGAR AL CARRITO            =
 ==========================================*/
 
-$(".agregarCarrito").click(function(){
-
+$(".agregarCarrito").click(function() {
+	console.log('me ejecuto');
 	var idProducto = $(this).attr("idProducto");
 	var imagen = $(this).attr("imagen");
 	var titulo = $(this).attr("titulo");
 	var precio = $(this).attr("precio");
 	var tipo = $(this).attr("tipo");
 	var peso = $(this).attr("peso");
-	var agregarAlCarrito = false;
-
-	/*=============================================
-	CAPTURAR DETALLES
-	=============================================*/
-
-	if(tipo == "virtual"){
-
-		agregarAlCarrito = true;
-
-	}else{
-
-		var seleccionarDetalle = $(".seleccionarDetalle");
-
-		for(var i = 0; i < seleccionarDetalle.length; i++){
-
-			if($(seleccionarDetalle[i]).val() == ""){
-
-				swal({
-					  title: "Debe seleccionar Talla y Color",
-					  text: "",
-					  type: "warning",
-					  showCancelButton: false,
-					  confirmButtonColor: "#DD6B55",
-					  confirmButtonText: "¡Seleccionar!",
-					  closeOnConfirm: false
-					})
-
-			}else{
-
-				titulo = titulo + "-" + $(seleccionarDetalle[i]).val();
-
-				agregarAlCarrito = true;
-
-			}
-
-		}		
-
-	}
+	var agregarAlCarrito = true;	
 
 	/*=============================================
 	ALMACENAR EN EL LOCALSTARGE LOS PRODUCTOS AGREGADOS AL CARRITO
 	=============================================*/
 
-	if(agregarAlCarrito){
+	if(agregarAlCarrito) {
 
 		/*=============================================
 		RECUPERAR ALMACENAMIENTO DEL LOCALSTORAGE
@@ -199,7 +163,7 @@ $(".agregarCarrito").click(function(){
 
 	}
 
-})
+});
 
 /*=====  End of AGREGAR AL CARRITO  ======*/
 
@@ -1071,107 +1035,52 @@ function pagarConPayu(){
 $(".agregarGratis").click(function(){
 
 
-var idProducto = $(this).attr("idProducto");
-var idUsuario = $(this).attr("idUsuario");
-var tipo = $(this).attr("tipo");
-var titulo = $(this).attr("titulo");
-var agregarGratis = false;
+	var idProducto = $(this).attr("idProducto");
+	var idUsuario = $(this).attr("idUsuario");
+	var tipo = $(this).attr("tipo");
+	var titulo = $(this).attr("titulo");
+	var agregarGratis = false;
 
 /*====================================================================
 =            VERIFICAR QUE NO TENGA EL PRODUCTO ADQUIRIDO            =
 ====================================================================*/
 
-var datos = new FormData();
+	var datos = new FormData();
 
-datos.append("idProducto", idProducto);
-datos.append("idUsuario", idUsuario);
-datos.append("tipo", tipo);
-$.ajax({
+	datos.append("idProducto", idProducto);
+	datos.append("idUsuario", idUsuario);
+	datos.append("tipo", tipo);
+	$.ajax({
 
-    url:rutaOculta+"ajax/carrito.ajax.php",
-	method:"POST",
-	data:datos,
-	cache:false,
-	contentType:false,
-	processData:false,
+	    url:rutaOculta+"ajax/carrito.ajax.php",
+		method:"POST",
+		data:datos,
+		cache:false,
+		contentType:false,
+		processData:false,
 
-    success:function(respuesta){
-
-
-     console.log("respuesta",respuesta);
-     if(respuesta != false){
-
-     swal({
-					  title: "Usted ya adquirió este producto",
-					  text: "",
-					  type: "warning",
-					  showCancelButton: false,
-					  confirmButtonColor: "#DD6B55",
-					  confirmButtonText: "Regresar",
-					  closeOnConfirm: false
-					})
-
-     }else{
-     
-   
+	    success:function(respuesta) {
 
 
-       if(tipo == "virtual"){
+			console.log("respuesta",respuesta);
+			if(respuesta != false) {
 
-		agregarGratis = true;
+	     		swal({
+					title: "Usted ya adquirió este producto",
+					text: "",
+					type: "warning",
+					showCancelButton: false,
+					confirmButtonColor: "#DD6B55",
+					confirmButtonText: "Regresar",
+					closeOnConfirm: false
+				});
 
-	    }else{
-
-		var seleccionarDetalle = $(".seleccionarDetalle");
-
-		for(var i = 0; i < seleccionarDetalle.length; i++){
-
-			if($(seleccionarDetalle[i]).val() == ""){
-
-				swal({
-					  title: "Debe seleccionar Talla y Color",
-					  text: "",
-					  type: "warning",
-					  showCancelButton: false,
-					  confirmButtonColor: "#DD6B55",
-					  confirmButtonText: "¡Seleccionar!",
-					  closeOnConfirm: false
-					})
-
-			}else{
-
-				titulo = titulo + "-" + $(seleccionarDetalle[i]).val();
-
-				agregarGratis = true;
-
-			}
-
-		  }		
-
-	   }
-
-	   if(agregarGratis){
-
-	   	window.location = rutaOculta+"index.php?ruta=finalizar-compra&gratis=true&producto="+idProducto+"&titulo="+titulo;
-
-	     }
-      
-         }
-
-      
-
-     }
-
-   
-
-})
-
-/*=====  End of VERIFICAR QUE NO TENGA EL PRODUCTO ADQUIRIDO  ======*/
-
-
-
-	
-})
-
+		   		if(agregarGratis) {
+		   			window.location = rutaOculta+"index.php?ruta=finalizar-compra&gratis=true&producto="+idProducto+"&titulo="+titulo;
+		    	}
+        	}
+     	}
+    });
+});
 
 /*=====  End of AGREGAR PRODUCTOS GRATIS  ======*/
