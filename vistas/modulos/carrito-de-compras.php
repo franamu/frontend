@@ -227,26 +227,26 @@ $url = Ruta::ctrRuta();
                		<tbody>
                			<tr>
                				<th>Subtotal</th>
-               				<th><span class="cambioDivisa">USD</span> $<span class="valorSubTotal" valor="0">0</span></th>
+               				<th><span class="cambioDivisa">ARS</span> $<span class="valorSubTotal" valor="0">0</span></th>
                			</tr>
                			<tr>
                				<th>Envío</th>
-               				<th><span class="cambioDivisa">USD</span> $ <span class="valorTotalEnvio" valor="0">0</span></th>
+               				<th><span class="cambioDivisa">ARS</span> $ <span class="valorTotalEnvio" valor="0">0</span></th>
                			</tr>
                			<tr>
                				<th>Impuesto</th>
-               				<th><span class="cambioDivisa">USD</span> $<span class="valorTotalImpuesto" valor="0">0</span></th>
+               				<th><span class="cambioDivisa">ARS</span> $<span class="valorTotalImpuesto" valor="0">0</span></th>
                			</tr>
                			<tr>
                				<th><strong>Total</strong></th>
-               				<th><span class="cambioDivisa">USD</span> $<span class="valorTotalCompra" valor="0"></span></th>
+               				<th><span class="cambioDivisa">ARS</span> $<span class="valorTotalCompra" valor="0"></span></th>
                			</tr>
                		</tbody>
                	</table>
 
                <div class="divisa">
                	<select class="form-control" id="cambiarDivisa" name="divisa">
-               		<option value="USD">USD</option>
+               		<option value="ARS">ARS</option>
                	</select>
                	<br>
                </div>
