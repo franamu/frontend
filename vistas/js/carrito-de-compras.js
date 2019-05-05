@@ -30,7 +30,7 @@ $(".cabeceraCheckout").hide();
  function functionForEach(item, index){
 
 
-  $(".cuerpoCarrito").append('<div class="row itemCarrito">' + '<div class="col-sm-1 col-xs-12">' + '<br>' + '<center>' + '<button class="btn btn-default backColor quitarItemCarrito" idProducto="' + item.idProducto + '"  tipo="' + item.tipo + '" peso="' + item.peso + '" ">' + '<i class="fa fa-times"></i>' + '</button>' + '</center>' + '</div>' + '<div class="col-sm-1 col-xs-12">' + '<figure>' + '<img src="' + item.imagen + '" class="img-thumbnail">' + '</figure>' + '</div>' + '<div class="col-sm-4 col-xs-12">' + '<br>' + '<p class="tituloCarritoCompra text-left">' + item.titulo + '</p> <span class="label label-success fontSize enStock">En Stock</span>' + '</div>' + '<div class="col-md-2 col-sm-1 col-xs-12">' + '<br>' + '<p class="text-center precioCarritoCompra">USD $ <span>' + item.precio + '</span></p>' + '</div>' + '<div class="col-md-2 col-sm-3 col-xs-8">' + '<br>' + '<div class="col-xs-8">' + '<center>' + '<input type="number" class="form-control cantidadItem" min="1" value="' + item.cantidad + '" tipo="' + item.tipo + '" precio="' + item.precio + '" idProducto="' + item.idProducto + '"  >' + '</center>' + '</div>' + '</div>' + '<div class="col-md-2 col-sm-1 col-xs-4">' + '<br>' + '<p class="subTotal' + item.idProducto + ' subtotales">' + '<strong>USD $ <span>' + item.precio + '</span></strong>' + '</p>' + '</div>' + '</div>' + '<div class="clearfix"></div>' + '<hr>');
+  $(".cuerpoCarrito").append('<div class="row itemCarrito">' + '<div class="col-sm-1 col-xs-12">' + '<br>' + '<center>' + '<button class="btn btn-default backColor quitarItemCarrito" idProducto="' + item.idProducto + '"  tipo="' + item.tipo + '" peso="' + item.peso + '" ">' + '<i class="fa fa-times"></i>' + '</button>' + '</center>' + '</div>' + '<div class="col-sm-1 col-xs-12">' + '<figure>' + '<img src="' + item.imagen + '" class="img-thumbnail">' + '</figure>' + '</div>' + '<div class="col-sm-4 col-xs-12">' + '<br>' + '<p class="tituloCarritoCompra text-left">' + item.titulo + '</p> <span class="label label-success fontSize enStock">En Stock</span>' + '</div>' + '<div class="col-md-2 col-sm-1 col-xs-12">' + '<br>' + '<p class="text-center precioCarritoCompra">ARS $ <span>' + item.precio + '</span></p>' + '</div>' + '<div class="col-md-2 col-sm-3 col-xs-8">' + '<br>' + '<div class="col-xs-8">' + '<center>' + '<input type="number" class="form-control cantidadItem" min="1" value="' + item.cantidad + '" tipo="' + item.tipo + '" precio="' + item.precio + '" idProducto="' + item.idProducto + '"  >' + '</center>' + '</div>' + '</div>' + '<div class="col-md-2 col-sm-1 col-xs-4">' + '<br>' + '<p class="subTotal' + item.idProducto + ' subtotales">' + '<strong>ARS $ <span>' + item.precio + '</span></strong>' + '</p>' + '</div>' + '</div>' + '<div class="clearfix"></div>' + '<hr>');
         /*========================================================================
         =            EVITAR MANIPULAR CANTIDAD DE PRODUCTOS VIRTUALES            =
         ========================================================================*/
@@ -82,7 +82,6 @@ $(".cabeceraCheckout").hide();
 
 }
 
-console.log('q onda');
 
 /*==========================================
 =            AGREGAR AL CARRITO            =
@@ -257,7 +256,7 @@ var precio = $(this).attr("precio");
 var idProducto = $(this).attr("idProducto");
 
 
-$(".subTotal"+idProducto).html('<strong>USD $ <span>'+(cantidad*precio)+'</span></strong>');
+$(".subTotal"+idProducto).html('<strong>ARS $ <span>'+(cantidad*precio)+'</span></strong>');
 
 /*=========================================================
 =            ACTUALIZAR CANTIDAD LOCAL STORAGE            =
@@ -357,7 +356,7 @@ var precioCarritoCompraArray = 	$(precioCarritoCompra[i]).html();
 var cantidadItemArray = $(cantidadItem[i]).val();
 var idProductoArray = $(cantidadItem[i]).attr("idProducto");
 
-$(".subTotal"+idProductoArray).html('<strong>USD $ <span>'+(precioCarritoCompraArray*cantidadItemArray)+'</span></strong>');
+$(".subTotal"+idProductoArray).html('<strong>ARS $ <span>'+(precioCarritoCompraArray*cantidadItemArray)+'</span></strong>');
 
 sumaSubTotales();
 cestaCarrito(precioCarritoCompra.length);
@@ -390,7 +389,7 @@ return total + numero;
 }
 
 var sumaTotal = arraySumaSubTotales.reduce(sumaArraySubtotales);
-$(".sumaSubTotal").html('<strong>USD $ <span>'+sumaTotal+' </span></strong>');
+$(".sumaSubTotal").html('<strong>ARS $ <span>'+sumaTotal+' </span></strong>');
  $(".sumaCesta").html(sumaTotal);
 
  localStorage.setItem("sumaCesta" , sumaTotal);
@@ -444,8 +443,8 @@ localStorage.setItem("cantidadCesta" , sumaTotalCantidades);
 $("#btnCheckout").click(function(){
 $(".listaProductos table.tablaProductos tbody").html("");
 
-$("#checkPaypal").prop("checked" , true);
-$("#checkPayu").prop("checked" , false);
+$("#checkPaypal").prop("checked" , false);
+$("#checkPayu").prop("checked" , true);
 
  var idUsuario = $(this).attr("idUsuario");
  var peso = $(".cuerpoCarrito button , .comprarAhora button");
@@ -548,37 +547,37 @@ for (var i = 0; i < peso.length; i++) {
     
 }
 
-  if(tipoArray.find(checkTipo) == "fisico"){
+if(tipoArray.find(checkTipo) == "fisico") {
 
-  	$(".seleccionePais").html('<select class="form-control" id="seleccionarPais" required>'+
-          				'<option value="">Seleccione país</option>'+
-          			'</select>');
+  	/*$(".seleccionePais").html('<select class="form-control" id="seleccionarPais" required>'+
+		'<option value="">Seleccione país</option>'+
+		'</select>');
 
    $(".formEnvio").show();
 
    $(".btnPagar").attr("tipo" , "fisico");
 
-     $.ajax({
-   	url:rutaOculta+"vistas/js/plugins/countries.json",
-   	type:"GET",
-   	cache:false,
-   	contentType:false,
-   	processData:false,
-   	dataType:"json",
-   	success: function(respuesta){
-   		
-   		respuesta.forEach(seleccionarPais);
+        $.ajax({
+       	url:rutaOculta+"vistas/js/plugins/countries.json",
+       	type:"GET",
+       	cache:false,
+       	contentType:false,
+       	processData:false,
+       	dataType:"json",
+       	success: function(respuesta){
+       		
+       		respuesta.forEach(seleccionarPais);
 
-   		function seleccionarPais(item, index){
+       		function seleccionarPais(item, index){
 
-   			var pais = item.name;
-   			var codPais = item.code;
+       			var pais = item.name;
+       			var codPais = item.code;
 
-   			$("#seleccionarPais").append('<option value="'+codPais+'">'+pais+'</option>');
-   		}
-   	}
+       			$("#seleccionarPais").append('<option value="'+codPais+'">'+pais+'</option>');
+       		}
+       	}
 
-   })
+    })*/
 
 
   /*==============================================
@@ -589,9 +588,9 @@ for (var i = 0; i < peso.length; i++) {
 
 $(".alert").remove();	
 
-$("#cambiarDivisa").val("USD");
+$("#cambiarDivisa").val("ARS");
 
-$(".cambioDivisa").html("USD");
+$(".cambioDivisa").html("ARS");
 
  $(".valorSubTotal").html((1 * Number($(".valorSubTotal").attr("valor"))).toFixed(2));
 		$(".valorTotalEnvio").html((1 * Number($(".valorTotalEnvio").attr("valor"))).toFixed(2));
@@ -640,7 +639,7 @@ $(".cambioDivisa").html("USD");
   }
 
   sumaTotalDefinitiva();
-  pagarConPayu();
+  //pagarConPayu();
 
   })
   
@@ -689,14 +688,13 @@ $(".valorTotalCompra").attr("valor", sumaTotalTasas.toFixed(2));
 
 
 
-var metodoPago = "paypal";
+var metodoPago = "payu";
 divisas(metodoPago);
 
 
 $("input[name='pago']").change(function(){
     var productosToString = idProductoArray.toString();
-          var productos = productosToString.replace(/,/g, "-");
-          console.log(productos);
+    var productos = productosToString.replace(/,/g, "-");
  metodoPago = $(this).val();
 
 divisas(metodoPago);
@@ -705,6 +703,8 @@ if(metodoPago == "payu"){
 
 	$(".btnPagar").hide();
 	$(".formPayu").show();
+	$("#checkPaypal").prop("checked" , false);
+	$("#checkPayu").prop("checked" , true);
 
 	pagarConPayu();
 }else{
@@ -712,6 +712,8 @@ if(metodoPago == "payu"){
 
 	$(".btnPagar").show();
 	$(".formPayu").hide();
+	$("#checkPaypal").prop("checked" , true);
+	$("#checkPayu").prop("checked" , false);
 }
 
 })
@@ -730,12 +732,12 @@ function divisas(metodoPago){
 			                       '<option value="BRL">BRL</option>');
 	}else{
 
-		$("#cambiarDivisa").append('<option value="USD">USD</option>'+
+		$("#cambiarDivisa").append('<option value="ARS">ARS</option>'+
 			                       '<option value="PEN">PEN</option>'+
 			                       '<option value="COP">COP</option>'+
 			                       '<option value="MXN">MXN</option>'+
 			                       '<option value="CLP">CLP</option>'+
-			                       '<option value="ARS">ARS</option>'+
+			                       '<option value="USD">USD</option>'+
 			                       '<option value="BRL">BRL</option>');
 
 	}
@@ -751,14 +753,14 @@ function divisas(metodoPago){
 $("#cambiarDivisa").change(function(){
 
 
-if($("#seleccionarPais").val() == ""){
+/*if($("#seleccionarPais").val() == ""){
 
 	$("#cambiarDivisa").after('<div class="alert alert-warning">No ah seleccionado el país de envío</div>');
 	return;
-}
+}*/
 
 
-var divisaBase = "USD";
+var divisaBase = "ARS";
 
 var divisa = $(this).val();
 
@@ -774,7 +776,7 @@ $.ajax({
 		var divisaString = JSON.stringify(respuesta);
 		var conversion = divisaString.substr(18,4);
 
-        if(divisa == "USD"){
+        if(divisa == "ARS"){
 
         	conversion = 1;
         }
@@ -793,7 +795,7 @@ $.ajax({
 		 $(valorItem[i]).html((Number(conversion) * Number($(valorItem[i]).attr("valor"))).toFixed(2));
 		}
    
-   pagarConPayu();
+   //pagarConPayu();
 
 	}
 })
@@ -808,94 +810,89 @@ $.ajax({
 =          BOTÓN  PAGAR            =
 =============================*/
 
-$(".btnPagar").click(function(){
+$(".btnPagar").click(function() {
+    console.log('hola');
+    if($("#metodoPagoInput").val() === "sinMetodo"){
+        
+       alert("lo sentimos no hay metodos de pago disponibles");
 
-if($("#metodoPagoInput").val() === "sinMetodo"){
-    
-   alert("lo sentimos no hay metodos de pago disponibles");
+    	return;
+    }
 
-	return;
-}
+    var tipo = $(this).attr("tipo");
 
-var tipo = $(this).attr("tipo");
-
-if(tipo == "fisico" && $("#seleccionarPais").val() == ""){
-
-	$(".btnPagar").after('<div class="alert alert-warning">No ah seleccionado el país de envío</div>');
-	return;
-}
-
-
-var divisa = $("#cambiarDivisa").val();
-
-var total = $(".valorTotalCompra").html();
-
-var impuesto = $(".valorTotalImpuesto").html();
-
-var envio = $(".valorTotalEnvio").html();
-
-var subtotal = Number($(".valorSubTotal").html());
-
-var titulo = $(".valorTitulo");
-
-var cantidad = $(".valorCantidad");
-
-var valorItem = $(".valorItem");
-
-var idProducto = $(".cuerpoCarrito button , .comprarAhora button");
+    if(tipo === "fisico") {
+    	$(".btnPagar").after('<div class="alert alert-warning">No ah seleccionado el país de envío</div>');
+    	return;
+    }
 
 
-var tituloArray = [];
-var cantidadArray = [];
-var valorItemArray = [];
-var idProductoArray = [];
+    var divisa = $("#cambiarDivisa").val();
+    console.log('divisa: ', divisa);
+    var total = $(".valorTotalCompra").html();
+    console.log('total: ', total);
+    var impuesto = $(".valorTotalImpuesto").html();
+    console.log('impuesto', impuesto);
+    var envio = $(".valorTotalEnvio").html();
+    console.log('envio', envio);
+    var subtotal = Number($(".valorSubTotal").html());
+    console.log('subtotal:', subtotal);
+    var titulo = $(".valorTitulo");
+    console.log('titulo:', titulo);
+    var cantidad = $(".valorCantidad");
+    console.log('cantidad:', cantidad);
+    var valorItem = $(".valorItem");
+    console.log('valorItem:', valorItem);
+    var idProducto = $(".cuerpoCarrito button , .comprarAhora button");
+    console.log('idProducto:', idProducto);
 
-for (var i = 0; i < titulo.length; i++) {
+    var tituloArray = [];
+    var cantidadArray = [];
+    var valorItemArray = [];
+    var idProductoArray = [];
 
-	 tituloArray[i] = $(titulo[i]).html();
+    for (var i = 0; i < titulo.length; i++) {
 
-     cantidadArray[i] = $(cantidad[i]).html();
+    	 tituloArray[i] = $(titulo[i]).html();
 
-     valorItemArray[i] = $(valorItem[i]).html();
+         cantidadArray[i] = $(cantidad[i]).html();
 
-     idProductoArray[i] = $(idProducto[i]).attr("idProducto");
+         valorItemArray[i] = $(valorItem[i]).html();
 
-	
-}
+         idProductoArray[i] = $(idProducto[i]).attr("idProducto");
 
-
-
-var datos = new FormData();
-
-datos.append("divisa" , divisa);
-datos.append("total",total);
-datos.append("impuesto", impuesto);
-datos.append("envio",envio);
-datos.append("subtotal", subtotal);
-datos.append("tituloArray", tituloArray);
-datos.append("cantidadArray",cantidadArray);
-datos.append("valorItemArray", valorItemArray);
-datos.append("idProductoArray", idProductoArray);
-
-$.ajax({
-
-	url:rutaOculta+"ajax/carrito.ajax.php",
-	method:"POST",
-	data:datos,
-	cache:false,
-	contentType:false,
-	processData:false,
-	success:function(respuesta){
-
-		window.location = respuesta;
-		//console.log(respuesta);
-	}
-
-})
+    	
+    }
 
 
 
-})
+    var datos = new FormData();
+    datos.append('metodoPago', 'payu');
+    datos.append("divisa" , divisa);
+    datos.append("total",total);
+    datos.append("impuesto", impuesto);
+    datos.append("envio",envio);
+    datos.append("subtotal", subtotal);
+    datos.append("tituloArray", tituloArray);
+    datos.append("cantidadArray",cantidadArray);
+    datos.append("valorItemArray", valorItemArray);
+    datos.append("idProductoArray", idProductoArray);
+
+    $.ajax({
+
+    	url:rutaOculta+"ajax/carrito.ajax.php",
+    	method:"POST",
+    	data:datos,
+    	cache:false,
+    	contentType:false,
+    	processData:false,
+    	success:function(respuesta){
+            pagarConPayu();
+    	}
+
+    });
+
+});
 
 /*=====  End of PAGAR  ======*/
 
@@ -903,19 +900,23 @@ $.ajax({
 =            PAGAR CON PAYU            =
 ======================================*/
 
-function pagarConPayu(){
+function pagarConPayu() {
 
-	if($("#seleccionarPais").val() == ""){
-
+	/*if($("#seleccionarPais").val() === ""){
+		console.log('elige payulatam');
+		$('.alert-warning').remove();
 		$(".formPayu").after('<div class="alert alert-warning">No ha seleccionado el país de envío</div>');
 		
 		$(".formPayu input[name='Submit']").attr("type","button");
 
 		return;
 
+	} else {
+		$(".formPayu input[name='Submit']").removeAttr('type');
 	}
-
+*/
 	var divisa = $("#cambiarDivisa").val();
+	console.log('la divisa con la q payu va a trabajar es: ', divisa);
 	var total = $(".valorTotalCompra").html();
 	var impuesto = $(".valorTotalImpuesto").html();
 	var envio = $(".valorTotalEnvio").html();
@@ -926,7 +927,7 @@ function pagarConPayu(){
 	var idProducto = $('.cuerpoCarrito button, .comprarAhora button');
 	var idUsuario = $("#idUsuario2").val();
 
-
+	console.log('sigo perfecto');
 	var tituloArray = [];
 	var cantidadArray = [];
 	var idProductoArray = [];
@@ -939,8 +940,8 @@ function pagarConPayu(){
 
 	}
 
-	var datos = new FormData();
-	datos.append("metodoPago", "payu");
+    var datos = new FormData();
+    datos.append('metodoPago', 'payu');
 
 	$.ajax({
       url:rutaOculta+"ajax/carrito.ajax.php",
@@ -976,7 +977,7 @@ function pagarConPayu(){
           }        
 
           if(modo == "sandbox"){
-
+          	console.log('if si es sandox', modo);
             var url = "https://sandbox.gateway.payulatam.com/ppp-web-gateway/";
             var test = 1;
 
@@ -987,14 +988,23 @@ function pagarConPayu(){
 
       	  }
 
-      	  if(envio != 0){
+      	 var tipoEnvio = "YES";
 
-      	  	var tipoEnvio = "YES";
-      	  
-      	  }else{
-
-      	  	var tipoEnvio = "NO";
-      	  }
+      	  console.log('merchantId' , merchantId);
+      	  console.log('accountId', accountId);
+      	  console.log('descriptionToString', descriptionToString);
+      	  console.log('referenceCode', referenceCode);
+      	  console.log('total', total);
+      	  console.log('impuesto', impuesto);
+      	  console.log('taxReturnBase', taxReturnBase);
+      	  console.log('envio',envio);
+      	  console.log('divisa', divisa);
+      	  console.log('confirmation url', rutaOculta+"index.php?ruta=finalizar-compra-payu&payu=true&idUsuario="+idUsuario+"&productos="+productos+"&cantidad="+cantidad+"&pago="+total+"&description="+description);
+      	  console.log('responseUrl',rutaOculta+"index.php?ruta=perfil" );
+      	  console.log('declinedResponseUrl', rutaOculta+"index.php?ruta=carrito-de-compras");
+      	  console.log('displayShippingInformation', tipoEnvio);
+      	  console.log('test', test);
+      	  console.log('signature', signature);
 
            $(".formPayu").attr("method","POST");
            $(".formPayu").attr("action",url);
@@ -1018,7 +1028,7 @@ function pagarConPayu(){
 			GENERADOR DE TARJETAS DE CRÉDITO
 			http://www.elfqrin.com/discard_credit_card_generator.php
 			=============================================*/
-
+         $('.formPayu').submit();   
       }
 
   })

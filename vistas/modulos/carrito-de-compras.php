@@ -150,16 +150,6 @@ $url = Ruta::ctrRuta();
                 
           <div class="contenidoCheckout">
 
-
-          	<div class="formEnvio row">
-          		<h4 class="text-center well text-muted text-uppercase">Información de Envío</h4>
-
-          		<div class="col-xs-12 seleccionePais">
-          			
-          		</div>
-          	</div>
-          	<br>
-
           	<div class="formPago row">
           	      <input type="hidden" id="idUsuario2" value="<?php echo $_SESSION["id"];?>">
           		<h4 class="text-center well text-muted text-uppercase">Elige una forma de pago</h4>
@@ -255,7 +245,7 @@ $url = Ruta::ctrRuta();
 
                <div class="clearfix"></div>
                 
-                <form method="post" class="formPayu" action="https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/" style="display:none">
+                <form method="post"  class="formPayu" action="https://sandbox.checkout.payulatam.com/ppp-web-gateway-payu/" style="display:none;">
   <input name="merchantId"    type="hidden"  value=""   >
   <input name="accountId"     type="hidden"  value="" >
   <input name="description"   type="hidden"  value=""  >
@@ -272,7 +262,7 @@ $url = Ruta::ctrRuta();
   <input name="declinedResponseUrl"    type="hidden"  value="" >
   <input name="confirmationUrl"    type="hidden"  value="" >
   <input name="displayShippingInformation"          type="hidden"  value="NO" >
-  <input name="Submit"  class="btn btn-block btn-lg btn-default backColor"      type="submit"  value="Pagar" >
+  <input name="Submit"  class="btn btn-block btn-lg btn-default backColor" type="submit"   value="Pagar" >
 </form>
                
                <?php if($respuesta["estadoPayPal"] == 0 && $respuesta["estadoPayu"] == 0 ){
